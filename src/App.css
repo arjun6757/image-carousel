@@ -93,22 +93,6 @@ body{
 }
 
 @media screen and (max-width: 500px)  {
- 
-  body {
-    all: unset;
-  }
-
-  .main-div {
-    aspect-ratio: 4 / 3;
-    width: 100%;
-    height: 300px;
-  }
-
-  .img-slider-img {
-    width: 100%;
-    height: 100%;
-  }
-
   .small-btn > *:hover, .small-btn > *:focus-visible {
   scale: unset;
 }
