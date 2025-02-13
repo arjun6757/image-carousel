@@ -61,7 +61,7 @@ export default function ImageSlider(props) {
 
       <button
         onClick={()=> {showPrevImage()}}
-        style={{ left: 0 }}
+        style={{ left: 10 }}
         className="img-slider-btn"
         aria-label="view previous image"
       >
@@ -69,7 +69,7 @@ export default function ImageSlider(props) {
       </button>
       <button
         onClick={showNextImage}
-        style={{ right: 0 }}
+        style={{ right: 10 }}
         className="img-slider-btn"
         aria-label="view next image"
       >
