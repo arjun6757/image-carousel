@@ -15,6 +15,7 @@ body{
 
 .main-div {
   width: 100vw;
+  height: 100vh;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   position: relative;
@@ -27,7 +28,7 @@ body{
   object-fit: cover;
   flex-shrink: 0;
   flex-grow: 0;
-  transition: translate 300ms ease-in-out;
+  transition: translate 500ms ease-in-out;
 }
 
 .img-slider-btn {
